@@ -155,8 +155,8 @@
 					var clehou = $('input[name="clehou"]').val();
 					var cleatl = $('input[name="cleatl"]').val();
 
-					var gsprob = gshou * ((atlcle * gsatl) + (cleatl * gsatl)) / 10000;
-					var houprob = hougs * ((atlcle * houatl) + (cleatl * houatl)) / 10000;
+					var gsprob = gshou * ((atlcle * gsatl) + (cleatl * gscle)) / 10000;
+					var houprob = hougs * ((atlcle * houatl) + (cleatl * houcle)) / 10000;
 					var atlprob = atlcle * ((gshou * atlgs) + (hougs * atlhou)) / 10000;
 					var cleprob = cleatl * ((gshou * clegs) + (hougs * clehou)) / 10000;
 
