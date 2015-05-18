@@ -86,18 +86,14 @@
 							</tr>
 						</tbody>
 					</table>
-				<hr>
-					<h4>NBA Finals Win Probability</h4>
-					<dl class="dl-horizontal">
-						<dt>Golden State:</dt>
-						<dd id="gsprobdd">25%</dd>
-						<dt>Houston:</dt>
-						<dd id="houprobdd">25%</dd>
-						<dt>Atlanta:</dt>
-						<dd id="atlprobdd">25%</dd>
-						<dt>Cleveland:</dt>
-						<dd id="cleprobdd">25%</dd>
-					</dl>
+					<hr>
+<h4>Reddit Markdown <small>(cut & paste for table layout)</small></h4>
+<pre id="premark">Team|%
+:---|---:
+Golden State|25%
+Houston|25%
+Atlanta|25%
+Cleveland|25%</pre>
 				</div>
 			</div>
 		</div>
@@ -155,20 +151,23 @@
 					var clehou = $('input[name="clehou"]').val();
 					var cleatl = $('input[name="cleatl"]').val();
 
-					var gsprob = gshou * ((atlcle * gsatl) + (cleatl * gscle)) / 10000;
-					var houprob = hougs * ((atlcle * houatl) + (cleatl * houcle)) / 10000;
-					var atlprob = atlcle * ((gshou * atlgs) + (hougs * atlhou)) / 10000;
-					var cleprob = cleatl * ((gshou * clegs) + (hougs * clehou)) / 10000;
+					var gsprob = Math.round(gshou * ((atlcle * gsatl) + (cleatl * gscle)) / 10000) + "%";
+					var houprob = Math.round(hougs * ((atlcle * houatl) + (cleatl * houcle)) / 10000) + "%";
+					var atlprob = Math.round(atlcle * ((gshou * atlgs) + (hougs * atlhou)) / 10000) + "%";
+					var cleprob = Math.round(cleatl * ((gshou * clegs) + (hougs * clehou)) / 10000) + "%";
 
-					$('#gsprob').text(Math.round(gsprob) + "%");
-					$('#houprob').text(Math.round(houprob) + "%");
-					$('#atlprob').text(Math.round(atlprob) + "%");
-					$('#cleprob').text(Math.round(cleprob) + "%");
+					$('#gsprob').text(gsprob);
+					$('#houprob').text(houprob);
+					$('#atlprob').text(atlprob);
+					$('#cleprob').text(cleprob);
 
-					$('#gsprobdd').text(Math.round(gsprob) + "%");
-					$('#houprobdd').text(Math.round(houprob) + "%");
-					$('#atlprobdd').text(Math.round(atlprob) + "%");
-					$('#cleprobdd').text(Math.round(cleprob) + "%");
+					$('#gsprobdd').text(gsprob);
+					$('#houprobdd').text(houprob);
+					$('#atlprobdd').text(atlprob);
+					$('#cleprobdd').text(cleprob);
+
+					$('#premark').text('Team|%\n:---|---:\nGolden State|' + gsprob + '\nHouston|' + houprob + '\nAtlanta|' + atlprob + '\nCleveland|' + cleprob);
+
 				}
 			});
 		</script>
