@@ -88,12 +88,12 @@
 					</table>
 					<hr>
 <h4>Reddit Markdown <small>(cut & paste for table layout)</small></h4>
-<pre id="premark">Team|%
-:---|---:
-Golden State|25%
-Houston|25%
-Atlanta|25%
-Cleveland|25%</pre>
+<pre id="premark">vs|GS|HOU|ATL|CLE|Champ. Prob.
+:---|:---:|:---:|:---:|:---:|:---:|
+**GS**|—|50%|50%|50%|**25%**
+**HOU**|50%|—|50%|50%|**25%**
+**ATL**|50%|50%|—|50%|**25%**
+**CLE**|50%|50%|50%|—|**25%**</pre>
 				</div>
 			</div>
 		</div>
@@ -166,8 +166,8 @@ Cleveland|25%</pre>
 					$('#atlprobdd').text(atlprob);
 					$('#cleprobdd').text(cleprob);
 
-					$('#premark').text('Team|%\n:---|---:\nGolden State|' + gsprob + '\nHouston|' + houprob + '\nAtlanta|' + atlprob + '\nCleveland|' + cleprob);
-
+					$('#premark').text('Team|%\n:-|-:\nGolden State|' + gsprob + '\nHouston|' + houprob + '\nAtlanta|' + atlprob + '\nCleveland|' + cleprob);
+					$('#premark').text('vs|GS|HOU|ATL|CLE|Champ. Prob.\n:---|:---:|:---:|:---:|:---:|:---:|\n**GS**|—|' + gshou + '%|' + gsatl + '%|' + gscle + '%|**' + gsprob + '**\n**HOU**|' + hougs + '%|—|' + houatl + '%|' + houcle + '%|**' + houprob + '**\n**ATL**|' + atlgs + '%|' + atlhou + '%|—|' + atlcle + '%|**' + atlprob + '**\n**CLE**|' + clegs + '%|' + clehou + '%|' + cleatl + '%|—|**' + cleprob + '**');
 				}
 			});
 		</script>
