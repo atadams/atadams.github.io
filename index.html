@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Playoff Win Probability</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+		<style type="text/css">
+			tbody th, td {
+				vertical-align: middle !important;
+			}
+			input {
+				text-align: center;
+			}
+			.success {
+				font-weight: bold;
+			}
+			dl {
+				font-size: 20px;
+			}
+			dd {
+				text-align: right;
+				width: 60px;
+			}
+			body {
+				padding-top: 24px;
+			}
+			.text-muted {
+				color: #bbb;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<p class="text-info lead">Enter the percent chance for each team to beat the other to determine the probability of winning it all.</p>
+
+					<table class="table">
+						<thead>
+							<tr>
+								<th><small class="text-muted">BEATS</small></th>
+								<th class="text-center">GS</th>
+								<th class="text-center">HOU</th>
+								<th class="text-center">ATL</th>
+								<th class="text-center">CLE</th>
+								<th class="text-center text-nowrap">Win Prob.</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>GS</th>
+								<td class="text-center text-muted">—</td>
+								<td><input type="number" class="form-control percent" name="gshou" value="50" tabindex="1"></td>
+								<td><input type="number" class="form-control percent" name="gsatl" value="50" tabindex="2"></td>
+								<td><input type="number" class="form-control percent" name="gscle" value="50" tabindex="3"></td>
+								<td class="success text-center"><div id="gsprob">25%</div></td>
+							</tr>
+							<tr>
+								<th>HOU</th>
+								<td><input type="number" class="form-control percent" name="hougs" value="50" readonly tabindex="-1"></td>
+								<td class="text-center text-muted">—</td>
+								<td><input type="number" class="form-control percent" name="houatl" value="50" tabindex="4"></td>
+								<td><input type="number" class="form-control percent" name="houcle" value="50" tabindex="5"></td>
+								<td class="success text-center"><div id="houprob">25%</div></td>
+							</tr>
+							<tr>
+								<th>ATL</th>
+								<td><input type="number" class="form-control percent" name="atlgs" value="50" readonly tabindex="-1"></td>
+								<td><input type="number" class="form-control percent" name="atlhou" value="50" readonly tabindex="-1"></td>
+								<td class="text-center text-muted">—</td>
+								<td><input type="number" class="form-control percent" name="atlcle" value="50" tabindex="6"></td>
+								<td class="success text-center"><div id="atlprob">25%</div></td>
+							</tr>
+							<tr>
+								<th>CLE</th>
+								<td><input type="number" class="form-control percent" name="clegs" value="50" readonly tabindex="-1"></td>
+								<td><input type="number" class="form-control percent" name="clehou" value="50" readonly tabindex="-1"></td>
+								<td><input type="number" class="form-control percent" name="cleatl" value="50" readonly tabindex="-1"></td>
+								<td class="text-center text-muted">—</td>
+								<td class="success text-center"><div id="cleprob">25%</div></td>
+							</tr>
+						</tbody>
+					</table>
+				<hr>
+					<h4>Final Win Probability</h4>
+					<dl class="dl-horizontal">
+						<dt>Golden State:</dt>
+						<dd id="gsprobdd">25%</dd>
+						<dt>Houston:</dt>
+						<dd id="houprobdd">25%</dd>
+						<dt>Atlanta:</dt>
+						<dd id="atlprobdd">25%</dd>
+						<dt>Cleveland:</dt>
+						<dd id="cleprobdd">25%</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+		<script>
+			$( document ).ready(function() {
+
+				$('input[name="gshou"]').change(function(){
+					$('input[name="hougs"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				$('input[name="gsatl"]').change(function(){
+					$('input[name="atlgs"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				$('input[name="gscle"]').change(function(){
+					$('input[name="clegs"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				$('input[name="houatl"]').change(function(){
+					$('input[name="atlhou"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				$('input[name="houcle"]').change(function(){
+					$('input[name="clehou"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				$('input[name="atlcle"]').change(function(){
+					$('input[name="cleatl"]').val( 100 - $(this).val());
+					calcProb();
+				});
+
+				function calcProb() {
+					var gshou = $('input[name="gshou"]').val();
+					var gsatl = $('input[name="gsatl"]').val();
+					var gscle = $('input[name="gscle"]').val();
+
+					var hougs = $('input[name="hougs"]').val();
+					var houatl = $('input[name="houatl"]').val();
+					var houcle = $('input[name="houcle"]').val();
+
+					var atlgs = $('input[name="atlgs"]').val();
+					var atlhou = $('input[name="atlhou"]').val();
+					var atlcle = $('input[name="atlcle"]').val();
+
+					var clegs = $('input[name="clegs"]').val();
+					var clehou = $('input[name="clehou"]').val();
+					var cleatl = $('input[name="cleatl"]').val();
+
+					var gsprob = gshou * ((atlcle * gsatl) + (cleatl * gsatl)) / 10000;
+					var houprob = hougs * ((atlcle * houatl) + (cleatl * houatl)) / 10000;
+					var atlprob = atlcle * ((gshou * atlgs) + (hougs * atlhou)) / 10000;
+					var cleprob = cleatl * ((gshou * clegs) + (hougs * clehou)) / 10000;
+
+					$('#gsprob').text(Math.round(gsprob) + "%");
+					$('#houprob').text(Math.round(houprob) + "%");
+					$('#atlprob').text(Math.round(atlprob) + "%");
+					$('#cleprob').text(Math.round(cleprob) + "%");
+
+					$('#gsprobdd').text(Math.round(gsprob) + "%");
+					$('#houprobdd').text(Math.round(houprob) + "%");
+					$('#atlprobdd').text(Math.round(atlprob) + "%");
+					$('#cleprobdd').text(Math.round(cleprob) + "%");
+				}
+			});
+		</script>
+	</body>
+</html>
