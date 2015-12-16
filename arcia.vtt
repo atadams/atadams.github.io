@@ -1,0 +1,1184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.370 --> 00:00:06.529
+So, first I'd like to acknowledge my colleagues,
+Dr. Sue Bakken is my mentor and is the PI
+
+00:00:06.529 --> 00:00:09.349
+of one of the major projects I'll be talking
+about today.
+
+00:00:09.349 --> 00:00:15.509
+And here you can also see our funding sources.
+So today I'm going to talk about some of the
+
+00:00:15.509 --> 00:00:19.930
+opportunities that technology creates for
+engaging patients, things that would not be
+
+00:00:19.930 --> 00:00:25.140
+really possible or as straightforward or easy
+without technology, and I'm going to do that
+
+00:00:25.140 --> 00:00:29.860
+in the form of two case studies, the first
+talking about tailored visualization -- we're
+
+00:00:29.860 --> 00:00:36.739
+talking about infographics and types of graphical
+formats. And then I'm going to talk about
+
+00:00:36.739 --> 00:00:42.429
+&lt;inaudible&gt; and that is an online maternity.
+So first, WICER is the Washington Heights/Inwood
+
+00:00:42.429 --> 00:00:47.679
+Informatics Infrastructure for Community-Centered
+Comparative Effectiveness Research.
+
+00:00:47.679 --> 00:00:54.329
+This was a large AHRQ-funded project, had
+lots of moving parts, including a hypertension
+
+00:00:54.329 --> 00:00:59.780
+file, focused on hypertension, and the purpose
+of this project was really to understand and
+
+00:00:59.780 --> 00:01:03.739
+enhance the health of the community. Here
+we're talking about Washington Heights and
+
+00:01:03.739 --> 00:01:07.830
+Inwood. This is the neighborhood where Columbia
+University Medical Center is located. This
+
+00:01:07.830 --> 00:01:13.990
+is the community we serve. It's where I live
+as well, and it's largely a Dominican neighborhood.
+
+00:01:13.990 --> 00:01:19.590
+So most of the people are Spanish-speaking,
+and some also speak English. We sent community
+
+00:01:19.590 --> 00:01:24.170
+health workers into the ambulatory care clinics,
+into a community health center, and into people's
+
+00:01:24.170 --> 00:01:31.470
+homes, and we surveyed about 5800 people.
+Blood pressure-- research-quality blood pressures,
+
+00:01:31.470 --> 00:01:36.770
+height, weight, waist circumference and a
+whole slew of patient-reported outcomes, including
+
+00:01:36.770 --> 00:01:41.750
+measures of mental health, nutrition, physical
+activity, etcetera. And one of the really
+
+00:01:41.750 --> 00:01:46.500
+great and innovative things about WICER was
+the ability to then-- most of the people gave
+
+00:01:46.500 --> 00:01:51.990
+the consent to have their survey data linked
+to their clinical data at New York Presbyterian
+
+00:01:51.990 --> 00:01:58.400
+Hospital, so that's a really rich data source
+that's available, and also many of them agreed
+
+00:01:58.400 --> 00:02:02.720
+to be contacted for future research. So we
+now have this wonderful research cohort. Some
+
+00:02:02.720 --> 00:02:09.200
+of them have given swabs for genomic studies,
+et cetera.
+
+00:02:09.200 --> 00:02:13.709
+We believe-- and this is really with Sue Bakken's
+leadership-- we really believe that we have
+
+00:02:13.709 --> 00:02:18.299
+an ethical obligation to return the data to
+the participants and to the community that
+
+00:02:18.299 --> 00:02:23.969
+supported this project, but it's not enough
+to say, "Here's a 60-page report, enjoy."
+
+00:02:23.969 --> 00:02:30.120
+You really do need to give people information
+in a way that they can find usable and actionable.
+
+00:02:30.120 --> 00:02:38.060
+So we also know from preliminary data that
+levels of health literacy are quite varying
+
+00:02:38.060 --> 00:02:48.180
+throughout the community but fairly low on
+average, and I'm so glad that these wonderful
+
+00:02:48.180 --> 00:02:52.920
+presenters have come before me and have already
+done-- so I don't have to go into the backstory
+
+00:02:52.920 --> 00:02:57.230
+about health literacy and the importance of
+that towards comprehension. But also we've
+
+00:02:57.230 --> 00:03:03.609
+seen that visualizations can support comprehension,
+but a lot of the work has been done with risk
+
+00:03:03.609 --> 00:03:07.760
+communication, so we saw those part-to-whole
+relationships-- the likelihood of being affected
+
+00:03:07.760 --> 00:03:14.629
+by breast cancer, for instance, out of a group
+of people-- and unfortunately when we looked
+
+00:03:14.629 --> 00:03:18.749
+at the types of data that we wanted to convey,
+we really didn't see much in the literature
+
+00:03:18.749 --> 00:03:23.310
+that would give us any guidance as to what
+is the best way to present this information,
+
+00:03:23.310 --> 00:03:29.129
+because most of it really was about risk communication,
+and we were showing things like fruit servings
+
+00:03:29.129 --> 00:03:36.919
+per week, one-time point, fairly straightforward
+information. So we engaged in a whole visualization
+
+00:03:36.919 --> 00:03:41.529
+development process, and here you see an overview.
+The first part involved iterative development
+
+00:03:41.529 --> 00:03:47.599
+of prototypes, then focus group testing. ENTICE
+is almost done-- at least the modules that
+
+00:03:47.599 --> 00:03:51.230
+we're building are almost done-- and that
+is the system that automatically generates
+
+00:03:51.230 --> 00:03:57.290
+and tailors the graphics, and comprehension
+testing is coming soon.
+
+00:03:57.290 --> 00:04:03.249
+So what we did was we put together the visualization
+working group, and this included people from
+
+00:04:03.249 --> 00:04:08.620
+nursing, biomedical informatics, medicine,
+public health, and maybe, I don't know, 17,
+
+00:04:08.620 --> 00:04:14.370
+19 people, something like that-- sort of a
+loose membership. And we looked first at what
+
+00:04:14.370 --> 00:04:19.349
+kinds of variables do we have. What is it
+that we need to visualize? And we matched
+
+00:04:19.349 --> 00:04:25.150
+those variables to some standard graphical
+formats, the kinds of which you see today,
+
+00:04:25.150 --> 00:04:30.879
+the kinds of things that are available off-the-shelf
+in Excel, for instance. But we also added
+
+00:04:30.879 --> 00:04:37.289
+our own innovative, novel formats, analogy-based
+formats that you'll see in a few minutes.
+
+00:04:37.289 --> 00:04:44.750
+We engaged in iterative prototyping until
+we felt like we had a few options for each
+
+00:04:44.750 --> 00:04:53.729
+type of data that we wanted to convey. In
+the process of doing that, we realized that
+
+00:04:53.729 --> 00:05:00.819
+we had-- our main goal was to promote comprehension,
+and what we had to do was: What are the cognitive
+
+00:05:00.819 --> 00:05:07.430
+tasks that somebody needs to complete in order
+to understand this information? And we started
+
+00:05:07.430 --> 00:05:12.340
+to group our infographics according to those
+tasks.
+
+00:05:12.340 --> 00:05:17.430
+So for instance, understanding what you said
+about fruit servings per week; you just have
+
+00:05:17.430 --> 00:05:21.610
+to identify a single value. But if you're
+going to understand BMI, you have to identify
+
+00:05:21.610 --> 00:05:24.930
+the value and then compare it to reference
+ranges and then make some sort of judgment
+
+00:05:24.930 --> 00:05:31.990
+about what that reference range means. So
+it requires more tasks and the visualization
+
+00:05:31.990 --> 00:05:39.349
+has to support more. So here's an example
+of the development of one graphic. So here
+
+00:05:39.349 --> 00:05:44.470
+on the left we have the initial prototype
+that one of my colleagues, Michael Bales,
+
+00:05:44.470 --> 00:05:50.190
+put together, and he brought it to our group
+and collectively we-- based on our group's
+
+00:05:50.190 --> 00:05:55.190
+feedback, we came up with this one in the
+middle. For instance, we took off the month
+
+00:05:55.190 --> 00:06:02.960
+and we made it cleaner, more open, etcetera.
+And then after revision by the focus group
+
+00:06:02.960 --> 00:06:07.819
+participants, after iteration with them, we
+came up with the one on the right. And we
+
+00:06:07.819 --> 00:06:11.580
+cannot use this graphic, and I'll tell you
+why in a minute.
+
+00:06:11.580 --> 00:06:18.479
+So, focus group testing. We conducted 21 groups,
+over 100 participants. Most of the groups
+
+00:06:18.479 --> 00:06:26.080
+were in Spanish. We gave our participants
+a stack of cardstock with one graphic on each
+
+00:06:26.080 --> 00:06:30.419
+piece of paper and everybody-- we assimilated
+data so that everybody was looking at the
+
+00:06:30.419 --> 00:06:36.479
+exact same graphic, and we asked people, "What
+do you think we're trying to tell you?" And
+
+00:06:36.479 --> 00:06:41.590
+the way we framed the exercise was, "If it's
+not clear, that's our fault that we haven't
+
+00:06:41.590 --> 00:06:46.330
+represented it well. So tell us what you think
+we're trying to say. How do you interpret
+
+00:06:46.330 --> 00:06:51.449
+this information? What do you like? What do
+you not like?" We would have multiple versions,
+
+00:06:51.449 --> 00:06:56.169
+the different prototypes for a particular
+type of information. "Of these three, which
+
+00:06:56.169 --> 00:07:00.370
+one do you like the best? How would you improve
+it?" Et cetera.
+
+00:07:00.370 --> 00:07:10.439
+And 
+here are our findings, in a nutshell, if you
+want to refer back to them, but I'm actually
+
+00:07:10.439 --> 00:07:16.580
+going to talk about them as I show you the
+following slides. One thing that I thought
+
+00:07:16.580 --> 00:07:22.599
+was really interesting was the information
+that you gave us before about less is more,
+
+00:07:22.599 --> 00:07:27.629
+and actually our participants told us over
+and over again more is more. They found that--
+
+00:07:27.629 --> 00:07:31.509
+they reminded us that just because someone
+has lower health literacy does not mean they
+
+00:07:31.509 --> 00:07:36.039
+have less desire for information. We just
+need to find a way to present it in a way
+
+00:07:36.039 --> 00:07:41.340
+that's going to be useful. So oftentimes,
+when given the choice between different graphics,
+
+00:07:41.340 --> 00:07:46.610
+they wanted the one that had more information.
+I also know from the research that what people
+
+00:07:46.610 --> 00:07:51.479
+prefer isn't necessarily what supports comprehension
+the most, so that's why we are doing formal
+
+00:07:51.479 --> 00:07:57.780
+comprehension testing. But the process of
+the focus groups did help us to do a preliminary
+
+00:07:57.780 --> 00:08:03.300
+comprehension check based on how people were
+interpreting the graphics. So we feel confident
+
+00:08:03.300 --> 00:08:07.749
+that although the graphics won't all perform
+equally well when we do comprehension testing,
+
+00:08:07.749 --> 00:08:11.479
+we do have some confidence that people are
+getting where we're going with these.
+
+00:08:11.479 --> 00:08:15.819
+So, here's an example of a low-information
+graphic. Most people understood this without
+
+00:08:15.819 --> 00:08:22.749
+any problem. It's employing a familiar analogy.
+We're using these stoplight colors to indicate
+
+00:08:22.749 --> 00:08:28.020
+the reference ranges. But people generally
+tended not to prefer this because it really
+
+00:08:28.020 --> 00:08:32.340
+does not have very much information.
+Compare it to this graphic, this was our most
+
+00:08:32.340 --> 00:08:37.680
+popular graphic. People really liked this.
+It still uses the stoplight analogy with the
+
+00:08:37.680 --> 00:08:43.349
+colors and the double number lines, but it
+provides a lot more information with the reference
+
+00:08:43.349 --> 00:08:48.339
+ranges. You can see, "Oh, my systolic is 142
+but I'm only two points away from the next
+
+00:08:48.339 --> 00:08:54.950
+category over, and maybe I can nudge that."
+And it also provides important context. So
+
+00:08:54.950 --> 00:08:59.000
+you have there the picture of where the blood--
+"Oh, this is how the blood pressure is taken.
+
+00:08:59.000 --> 00:09:03.079
+That's what they were doing. This is where
+that number comes from," and some risks of
+
+00:09:03.079 --> 00:09:08.149
+high blood pressure. I asked people, "Do you
+want to see this information? What if your
+
+00:09:08.149 --> 00:09:12.269
+blood pressure is normal?" They said, "No,
+we still want to see it. This is really valuable."
+
+00:09:12.269 --> 00:09:16.930
+And I had participants take these home. This
+is not their blood pressure information, but
+
+00:09:16.930 --> 00:09:20.000
+they had-- they said, "No, I'm going to put
+this on my fridge," because they really valued
+
+00:09:20.000 --> 00:09:26.620
+what they saw there.
+Here's another example of a familiar analogy--
+
+00:09:26.620 --> 00:09:30.190
+and actually, there's two analogies at play
+here. One is the stoplight colors and the
+
+00:09:30.190 --> 00:09:39.740
+other one is the concept of the battery. What
+I took from this is that we need to employ
+
+00:09:39.740 --> 00:09:43.760
+the images and iconography that people have
+been trained to use, because, let me tell
+
+00:09:43.760 --> 00:09:48.750
+you, you get trained really quick that you
+need to pay attention to this icon, because
+
+00:09:48.750 --> 00:09:52.709
+if you don't, your phone's going to die and
+you're not going to be able to do what you
+
+00:09:52.709 --> 00:10:00.079
+want to do. So this kind of image-- I had
+a few of my eldest ladies who did not understand
+
+00:10:00.079 --> 00:10:05.389
+this, but pretty much most people understood
+it and liked it and found it very useful.
+
+00:10:05.389 --> 00:10:11.630
+So that analogy was very easy to use and people
+also liked that you could compare it to something
+
+00:10:11.630 --> 00:10:16.990
+else. When we had graphics that had just one
+piece of information-- for instance, just
+
+00:10:16.990 --> 00:10:21.040
+one battery, just Maria by herself in the
+center-- people found it actually kind of
+
+00:10:21.040 --> 00:10:25.870
+confusing. They didn't know-- "What's the
+story? What's happening here?" People would
+
+00:10:25.870 --> 00:10:31.350
+invent stuff. And when you add a comparison,
+it actually makes it easier for people to
+
+00:10:31.350 --> 00:10:35.110
+make sense of the graphic and it makes it
+easier for people to use and understand. So
+
+00:10:35.110 --> 00:10:40.680
+that was another important takeaway.
+Here's another example of a familiar analogy.
+
+00:10:40.680 --> 00:10:48.250
+Again, there's nothing inherent about this
+graphical convention that-- we're not born
+
+00:10:48.250 --> 00:10:54.870
+knowing this, right? We've been trained by
+Netflix, by Amazon, by restaurant ratings
+
+00:10:54.870 --> 00:11:00.550
+and movie ratings. We know how to use this,
+and I was reminded of the fact that that's
+
+00:11:00.550 --> 00:11:07.589
+not universal by a couple of my most elderly
+ladies. I had one of them tell me that the
+
+00:11:07.589 --> 00:11:13.010
+other men were in better health because they
+only had two bad stars and three good stars.
+
+00:11:13.010 --> 00:11:16.589
+It had never occurred to me-- it would never
+in a million years occur to me to interpret
+
+00:11:16.589 --> 00:11:20.970
+that graphic in this way. So it just points
+out the fact that we have been trained and
+
+00:11:20.970 --> 00:11:26.810
+we do want to capitalize on the kinds of images
+that people are used to using in their daily
+
+00:11:26.810 --> 00:11:35.720
+lives.
+So here's an example of icons that did not
+
+00:11:35.720 --> 00:11:41.790
+work well. I had people who could tell me
+that Maria was active. They could tell me
+
+00:11:41.790 --> 00:11:47.449
+she was fast. But they could not tell me how
+many days per week she exercised, which I
+
+00:11:47.449 --> 00:11:53.500
+found kind of baffling. But the fact is that
+this is a convention. The graphical convention
+
+00:11:53.500 --> 00:11:59.170
+of using repeated icons to represent repeated
+instances of a more general class of things
+
+00:11:59.170 --> 00:12:06.350
+was one that I had to conclude was not very
+familiar to this population. Maybe in Europe,
+
+00:12:06.350 --> 00:12:10.509
+where you see a lot more iconography, people
+would be comfortable with this, but in our
+
+00:12:10.509 --> 00:12:14.800
+neighborhood this didn't really fly. I mean,
+a lot of people understood it, but many people
+
+00:12:14.800 --> 00:12:21.339
+did not, whereas this one, people are familiar
+with this. They know how to use this. So we
+
+00:12:21.339 --> 00:12:22.759
+tried all kinds of things with icons. We thought
+icons would be great, and they just really,
+
+00:12:22.759 --> 00:12:23.459
+really failed. And one of the things that
+I noticed with this is that when people would
+
+00:12:23.459 --> 00:12:23.560
+talk about this graphic, they would talk about
+running, jogging, walking, but they would
+
+00:12:23.560 --> 00:12:23.649
+never generalize to other forms of exercise--
+swimming, soccer. And I would ask people,
+
+00:12:23.649 --> 00:12:23.759
+"I want to represent exercise generally. Is
+this a good example? Is this a good image?"
+
+00:12:23.759 --> 00:12:23.860
+And they said yes, but they still would only
+talk about running, walking, jogging, and
+
+00:12:23.860 --> 00:12:23.980
+I said, "Can you think of anything else? Work
+with me here." And nobody could come up with
+
+00:12:23.980 --> 00:12:24.480
+anything better than this. So one of the things
+that we found was we had a very, very difficult
+
+00:12:24.480 --> 00:12:25.180
+time showing things at the right level of
+abstraction. Exercise, fruits and vegetables
+
+00:12:25.180 --> 00:12:25.199
+were the three main areas where we had problems
+with this. It was just really, really difficult
+
+00:12:25.199 --> 00:12:25.230
+because also people took things very literally.
+We had another graphic just like this one
+
+00:12:25.230 --> 00:12:25.259
+but with pairs of tennis shoes, and people
+would say, "Oh, those are the shoes you have
+
+00:12:25.259 --> 00:12:25.269
+to buy."
+So here's another example of where we got
+
+00:12:25.269 --> 00:12:25.300
+into literal interpretation. The original
+version of this graphic had little apple icons,
+
+00:12:25.300 --> 00:12:25.360
+and people would look at this and they would
+say, "So many apples." &lt;chuckles&gt; "Apples
+
+00:12:25.360 --> 00:12:25.360
+every day. Victor eats a lot of apples." And
+so their feedback to me was that I should
+
+00:12:25.360 --> 00:12:25.839
+show a group of fruits so that people would
+understand that it's not just apples. So I
+
+00:12:25.839 --> 00:12:25.940
+work on my little graphic, I make my little
+icons. I'm trying to make it so that it's
+
+00:12:25.940 --> 00:12:26.040
+still legible even though it's small on the
+page, and I come back with this, and the people
+
+00:12:26.040 --> 00:12:26.139
+who saw the apples and then who saw this said,
+"Oh, this is much better. This is much better
+
+00:12:26.139 --> 00:12:26.240
+because then you can see that it's not just
+apples, it's a variety of fruits." But the
+
+00:12:26.240 --> 00:12:26.320
+people who only saw this said, "Same fruits
+every day?" And I had people very carefully
+
+00:12:26.320 --> 00:12:26.440
+scrutinizing the image-- "Pineapple, grapes..."
+People were really looking at the details
+
+00:12:26.440 --> 00:12:26.470
+of the image. So this-- people were really
+interpreting this very literally, and it was
+
+00:12:26.470 --> 00:12:26.509
+a very important message that we have to be
+very careful about what goes into that message.
+
+00:12:26.509 --> 00:12:26.540
+I don't know if you remember the calendar.
+Right? This is why we couldn't use the calendar,
+
+00:12:26.540 --> 00:12:26.570
+because we only knew-- this is a CDC 30-day
+measure, so out of the last 30 days, were
+
+00:12:26.570 --> 00:12:26.610
+you sad, blue or depressed, for instance--
+and we had a graphic that had five days on
+
+00:12:26.610 --> 00:12:26.639
+the calendar, and people would say, "Oh yes,
+it's that time of the month for Maria," or
+
+00:12:26.639 --> 00:12:26.670
+"Oh yes, she was depressed from the first
+Sunday through the first Thursday of the month."
+
+00:12:26.670 --> 00:12:26.699
+And our data are not that specific, but people--
+that's how they interpreted it, and that's
+
+00:12:26.699 --> 00:12:26.750
+not what we're trying to say. So we're actually
+going forward with a graphic that's not as
+
+00:12:26.750 --> 00:12:26.829
+sexy, it's not as exciting, it's just little
+blocks, it's a simple icon array, but people
+
+00:12:26.829 --> 00:12:26.899
+understood it and they didn't attach additional
+significance that we didn't intend.
+
+00:12:26.899 --> 00:12:26.990
+So here are a few quotes that we got from
+our focus group participants. As I said, some
+
+00:12:26.990 --> 00:12:27.070
+people would take their entire stacks of graphics
+home because they thought they were really
+
+00:12:27.070 --> 00:12:27.130
+interesting and useful. I also have run four
+pilot participants through the comprehension
+
+00:12:27.130 --> 00:12:27.230
+study with graphics that I built by hand,
+or that I tailored by hand, and I had one
+
+00:12:27.230 --> 00:12:27.290
+who said this, that "It opens your mind so
+that you can make changes to your own health,"
+
+00:12:27.290 --> 00:12:27.290
+and I nearly started crying at my desk It
+was like, "This is what we've been working
+
+00:12:27.290 --> 00:12:27.290
+for for two years." So I think that we really
+did see evidence of engagement and people
+
+00:12:27.290 --> 00:12:27.300
+said they found it motivating. Even just the
+process of being participants in the focus
+
+00:12:27.300 --> 00:12:27.300
+group-- people really values that as educational
+and engaging.
+
+00:12:27.300 --> 00:12:27.300
+So this is the infrastructure-- rather, a
+diagram for ENTICE. This is Electronic Tailored
+
+00:12:27.300 --> 00:12:27.310
+Infographics for Community Engagement, Education
+and Empowerment, and basically what this graphic
+
+00:12:27.310 --> 00:12:27.310
+shows is that you have this blue box in the
+middle that represents the web application
+
+00:12:27.310 --> 00:12:27.310
+that is ENTICE, and it queries the survey
+data for the metadata, the population data,
+
+00:12:27.310 --> 00:12:27.320
+and the individual data that it needs to then
+go to the graphical components library, pull
+
+00:12:27.320 --> 00:12:27.320
+the different pieces that it needs to then
+assemble the graphic. And then this gray box
+
+00:12:27.320 --> 00:12:27.329
+on the right represents the security. So this
+is what verifies the users' identity, only
+
+00:12:27.329 --> 00:12:27.329
+gives them access to the things that they
+should access and not somebody else's data,
+
+00:12:27.329 --> 00:12:27.329
+and creates an audit trail.
+So here we've got our overall health graphic
+
+00:12:27.329 --> 00:12:27.339
+again, and I've annotated it so that you can
+see that, for instance, the title and the
+
+00:12:27.339 --> 00:12:27.339
+response options-- that's the metadata. Here
+you have Victor's, his individual data, and
+
+00:12:27.339 --> 00:12:27.339
+then the population-level data there.
+So we're, any day now, going to start comprehension
+
+00:12:27.339 --> 00:12:27.350
+testing. It's a randomized control trial in
+which each group serves as the other group's
+
+00:12:27.350 --> 00:12:27.350
+control, and I'll show you exactly how we're
+going to do that. We are comparing visualizations
+
+00:12:27.350 --> 00:12:27.350
+to text for comprehension, perceived ease
+of comprehension, and motivation for some
+
+00:12:27.350 --> 00:12:27.360
+of the items.
+And here you can see an example, a sample
+
+00:12:27.360 --> 00:12:27.360
+item. Maria is in Group A. She's going to
+see the graphic for the depression symptoms
+
+00:12:27.360 --> 00:12:27.360
+but the text for prolonged stress, whereas
+Gloria, in Group B, she's going to see the
+
+00:12:27.360 --> 00:12:27.370
+text for depression symptoms and the graphic
+for prolonged stress. The way we can do this
+
+00:12:27.370 --> 00:12:27.370
+is because each graphic has a buddy that's
+either visually or conceptually very similar.
+
+00:12:27.370 --> 00:12:27.380
+Sometimes they're exactly the same, but the
+user is not going to know that. And everybody
+
+00:12:27.380 --> 00:12:27.380
+gets the same items. I very carefully built
+the items so that everyone gets the same items;
+
+00:12:27.380 --> 00:12:27.380
+everybody's just going to have a different
+answer key. So primarily we're going for just
+
+00:12:27.380 --> 00:12:27.389
+comprehension, not verbatim comprehension.
+And then we also have-- this is a new graphic.
+
+00:12:27.389 --> 00:12:27.389
+Nobody's seen this-- no participants have
+seen this yet, so who knows if it'll work?
+
+00:12:27.389 --> 00:12:27.389
+Who knows if they'll understand it, but it's
+modeled after the Risks of High Blood pressure
+
+00:12:27.389 --> 00:12:27.399
+graphic, and we're asking, for the ones that
+have a behavioral component, "Does this information
+
+00:12:27.399 --> 00:12:27.399
+motivate you to take changes to how you manage
+your health?" and then also, "Please rate
+
+00:12:27.399 --> 00:12:27.410
+how difficult or easy this was to understand,"
+and we're asking that for every single item,
+
+00:12:27.410 --> 00:12:27.410
+but text and graphic. And I've actually had
+to move this item first-- this is why you
+
+00:12:27.410 --> 00:12:27.410
+do pilots-- because I had a participant who
+said to me-- who, talking aloud, clearly does
+
+00:12:27.410 --> 00:12:27.420
+not understand the graphic and doesn’t understand
+the information, and then says it's very easy
+
+00:12:27.420 --> 00:12:27.420
+on the how easy or difficult it is, and she
+explained that, "Oh, she's quite sure that
+
+00:12:27.420 --> 00:12:27.430
+she has no idea what it means." So I had to
+move that first so that it's really, "How
+
+00:12:27.430 --> 00:12:27.430
+are you interpreting the graphic?" and then
+let's ask the content questions later. We'll
+
+00:12:27.430 --> 00:12:27.430
+see if that helps.
+So moving forward, I am going to-- I've just
+
+00:12:27.430 --> 00:12:28.430
+been funded to work on this project with Hispanic
+caregivers of dementia patients, and we're
+
+00:12:28.430 --> 00:12:28.430
+going to be creating and adapting graphics
+for them, where they can track their own health
+
+00:12:28.430 --> 00:12:28.440
+and that of the person for whom they're caring.
+But here we're going to get into different
+
+00:12:28.440 --> 00:12:28.440
+types of visualizations. We're going to get
+into tracking trends over time. So that's
+
+00:12:28.440 --> 00:12:28.440
+going to be a whole different thing. Probably
+going to get more into line graphs and that
+
+00:12:28.440 --> 00:12:28.449
+kind of thing, because there's not-- maybe
+some animation-- there's not a lot of different
+
+00:12:28.449 --> 00:12:28.449
+ways of doing that that I've seen that are
+better than that. But we also want to talk
+
+00:12:28.449 --> 00:12:28.449
+about how this is applicable to Obama's precision
+medicine initiative because there's a lot
+
+00:12:28.449 --> 00:12:28.459
+of communication that then happens. What are
+your genomic results? What does the evidence
+
+00:12:28.459 --> 00:12:28.459
+say about what is going to work for you? How
+do we track your signs and symptoms over time?
+
+00:12:28.459 --> 00:12:28.470
+And I think there's a lot of applicability
+for visualizations in that context.
+
+00:12:28.470 --> 00:12:28.470
+So, changing focus a little bit, I'm going
+to talk about the second case study, which
+
+00:12:28.470 --> 00:12:28.470
+is-- this is the project that I'm originating
+that I'm calling Maternity Information Access
+
+00:12:28.470 --> 00:12:28.480
+Point, or "My App" in English, or "Mi App"
+in Spanish-- and this-- I'm reminded of something
+
+00:12:28.480 --> 00:12:28.480
+that a doula told me recently. She said that
+she tells her patients, "You are your own
+
+00:12:28.480 --> 00:12:28.490
+primary care provider," and this is the patients
+who sometimes are not so-- they're kind of
+
+00:12:28.490 --> 00:12:28.490
+reluctant to engage, and she says, "No, no,
+no, you are your own primary care provider.
+
+00:12:28.490 --> 00:12:28.490
+You're the one who makes these day-to-day
+decisions about how you're going to feed yourself,
+
+00:12:28.490 --> 00:12:28.500
+your hygiene, your activities," et cetera.
+And so this is-- when we get into pregnancy,
+
+00:12:28.500 --> 00:12:28.500
+you get into women have to make lots and lots
+of decisions, lots of self-management decisions.
+
+00:12:28.500 --> 00:12:28.500
+They're hoovering up information like crazy,
+and they have to be preloaded with the knowledge,
+
+00:12:28.500 --> 00:12:28.509
+but intrapartum is not the time for a decision
+aid, generally. You usually don't have time
+
+00:12:28.509 --> 00:12:28.509
+to-- maybe you have a few minutes, but you
+don't have time to really research and think
+
+00:12:28.509 --> 00:12:28.519
+about it and hem and haw. You really have
+to preload women with all this information
+
+00:12:28.519 --> 00:12:28.519
+so that when they need it, if they need it--
+there's a lot of uncertainty-- they can access
+
+00:12:28.519 --> 00:12:28.519
+it.
+So my tech partner is called Maternity Neighborhood,
+
+00:12:28.519 --> 00:12:28.529
+and they are-- they're really cool. They make
+an electronic health record that is designed
+
+00:12:28.529 --> 00:12:28.529
+with the needs of midwives and birth centers
+in mind. It's specifically for maternity care,
+
+00:12:28.529 --> 00:12:28.529
+and they have a new product called Care Guide
+that is an online maternity education platform.
+
+00:12:28.529 --> 00:12:28.540
+So the provider would give their client a
+login and invite them to see a whole library
+
+00:12:28.540 --> 00:12:28.540
+of curated, high-quality information. The
+provider can also load up in their own information,
+
+00:12:28.540 --> 00:12:28.550
+whatever documents they want to put up there,
+and they can message securely around that
+
+00:12:28.550 --> 00:12:28.550
+content. It can also be integrated with the
+EHR so that the provider can say, "Oh, you've
+
+00:12:28.550 --> 00:12:28.550
+got this glucose test coming up. Here's some
+information. Please sign this e-consent,"
+
+00:12:28.550 --> 00:12:28.560
+and the engagement gets documented right into
+the EHR. So my concern is-- I'm interested
+
+00:12:28.560 --> 00:12:28.560
+a lot in underserved populations and health
+literacy-- are we meeting the needs of these
+
+00:12:28.560 --> 00:12:28.560
+women? Are we meeting everybody's needs with
+this kind of product?
+
+00:12:28.560 --> 00:12:28.570
+So this is a qualitative study to look at
+the acceptability and the feasibility of this
+
+00:12:28.570 --> 00:12:28.570
+for Medicaid-enrolled women. So, just started
+last Friday collecting data-- recruitment
+
+00:12:28.570 --> 00:12:28.570
+is difficult-- but we are running four different
+groups, English and Spanish, first-time moms
+
+00:12:28.570 --> 00:12:28.579
+and experienced moms, and in the initial group
+we're looking at barriers and facilitators
+
+00:12:28.579 --> 00:12:28.579
+of Internet access, how women are using the
+Internet for maternity care information, what
+
+00:12:28.579 --> 00:12:28.579
+sources, Internet and other, they're using,
+what are they preferring, how they get the
+
+00:12:28.579 --> 00:12:28.589
+information, and what they think about this
+idea of this platform, whether they think
+
+00:12:28.589 --> 00:12:28.589
+they would use it, what they would like about
+it or not, and then a field-testing period
+
+00:12:28.589 --> 00:12:28.589
+of one month. They'll go home. We give them
+a mobile hotspot so that they always have
+
+00:12:28.589 --> 00:12:28.600
+as much data as they need, and we will be
+messaging with them as though we're the provider.
+
+00:12:28.600 --> 00:12:28.600
+We can't give them specific medical information
+but we can support their education efforts.
+
+00:12:28.600 --> 00:12:28.610
+And then in the course of their usage, the
+system logs all of the user actions so later
+
+00:12:28.610 --> 00:12:28.610
+on we can download those log files and see
+what did they use, what did they look at,
+
+00:12:28.610 --> 00:12:28.620
+when, how long, how much did they use it or
+not, and then we'll bring them back a month
+
+00:12:28.620 --> 00:12:28.620
+later and do standardized metrics of usability
+and user satisfaction and talk about their
+
+00:12:28.620 --> 00:12:28.620
+experiences-- what did they like, what did
+they not like, what can we improve. So that's
+
+00:12:28.620 --> 00:12:28.630
+happening now.
+And so the future directions for that project
+
+00:12:28.630 --> 00:12:28.630
+will really depend on what do we find, where
+does it make sense to go next, but one possibility
+
+00:12:28.630 --> 00:12:28.630
+is definitely to study the effect of this
+kind of platform on clinical outcomes. Right
+
+00:12:28.630 --> 00:12:28.639
+now it's just maternity. I think it has group
+applicability to all kinds of other conditions.
+
+00:12:28.639 --> 00:12:28.639
+Diabetes. You're newly diagnosed with diabetes,
+you have a lot of information that you need
+
+00:12:28.639 --> 00:12:28.649
+to learn and process over a long period of
+time, and this is I think the kind of technology
+
+00:12:28.649 --> 00:12:28.649
+tool that would be really useful to support
+that. The other thing that I've been thinking
+
+00:12:28.649 --> 00:12:28.649
+about is these log files. What if we could
+analyze them in real-time, as people are using
+
+00:12:28.649 --> 00:12:28.660
+them, so that we can use their usage patterns
+to inform clinical care? What is that people
+
+00:12:28.660 --> 00:12:28.660
+are-- what resources are they hitting again
+and again? What are we not-- maybe we need
+
+00:12:28.660 --> 00:12:28.670
+to spend more time on that in our clinical
+encounters because-- what search terms are
+
+00:12:28.670 --> 00:12:28.670
+people using? Maybe we should rewrite our
+materials to match the search terms that people
+
+00:12:28.670 --> 00:12:28.670
+are using because this is the language that
+they're bringing to the table.
+
+00:12:28.670 --> 00:12:28.680
+So. I just want to conclude by mentioning
+again that technology is what makes some of
+
+00:12:28.680 --> 00:12:28.680
+this large-scale tailoring possible. It certainly
+eases dissemination when you have something
+
+00:12:28.680 --> 00:12:28.680
+that's web-based, and it can really support
+that client and clinician communication. Both
+
+00:12:28.680 --> 00:12:28.690
+visualizations and the platform can do that.
+And this question of the log files, we have
+
+00:12:28.690 --> 00:12:28.690
+all these data streams that we should be and
+can be harnessing to promote a learning health
+
+00:12:28.690 --> 00:12:28.690
+system, and I think the log files, capturing
+user actions on an educational system, is
+
+00:12:28.690 --> 00:12:28.699
+a great example of a way that we can contribute
+to the learning health system by harnessing
+
+00:12:28.699 --> 00:12:28.699
+that data stream. So moving forward, the research
+priorities that I think are important are
+
+00:12:28.699 --> 00:12:28.709
+looking at what is the optimal format to visualize
+different types of data. Because we've looked
+
+00:12:28.709 --> 00:12:28.709
+at just a narrow slice, but there's a lot
+out there that we might want to visualize
+
+00:12:28.709 --> 00:12:28.720
+that hasn't been tested yet. So I think we
+still need to do a lot of work in that regard,
+
+00:12:28.720 --> 00:12:28.720
+find ways of saying other things, and also
+really being cognizant of what is going to
+
+00:12:28.720 --> 00:12:28.720
+work in your local environment, because your
+mileage may vary. What worked in our setting
+
+00:12:28.720 --> 00:12:28.730
+may not work in yours, and it's-- the thing
+with icons in particular really drove home
+
+00:12:28.730 --> 00:12:28.730
+that message, that you can't assume that your
+idea is going to work where you are. So I
+
+00:12:28.730 --> 00:12:28.730
+encourage you to ask people. Thank you.
+
